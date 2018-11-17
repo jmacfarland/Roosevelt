@@ -52,27 +52,10 @@ namespace Roosevelt.Api.Controllers
             return _context.Students.ToList();
         }
 
-        [HttpGet("{id}", Name = "GetStudent")]
-        public ActionResult<Student> GetById(long id)
+        [HttpGet("{teacher_name}", Name = "GetStudentByTeacher")]
+        public ActionResult<List<Student>> GetbyTeacher(string teacher_name)
         {
-            var student = _context.Students.Find(id);
-            if (student == null)
-            {
-                return NotFound();
-            }
-            return student;
-        }
-
-        [Route("Teacher")]
-        [HttpGet("{t_name}", Name = "GetByTeacher")]
-        public ActionResult<List<Student>> GetbyTeacher(string t_name)
-        {
-            List<Student> ret = new List<Student>();
-            foreach(Student s in _context.Students.ToList())
-            {
-
-            }
-
+            return _context.Students.Where(s => s.teacher_name == teacher_name).ToList();
         }
     }
 }
