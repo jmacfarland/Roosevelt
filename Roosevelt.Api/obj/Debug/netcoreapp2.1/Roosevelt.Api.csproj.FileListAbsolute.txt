@@ -1,0 +1,14 @@
+/home/jamison/Roosevelt/Roosevelt.Api/bin/Debug/netcoreapp2.1/Roosevelt.Api.deps.json
+/home/jamison/Roosevelt/Roosevelt.Api/bin/Debug/netcoreapp2.1/Roosevelt.Api.runtimeconfig.json
+/home/jamison/Roosevelt/Roosevelt.Api/bin/Debug/netcoreapp2.1/Roosevelt.Api.runtimeconfig.dev.json
+/home/jamison/Roosevelt/Roosevelt.Api/bin/Debug/netcoreapp2.1/Roosevelt.Api.dll
+/home/jamison/Roosevelt/Roosevelt.Api/bin/Debug/netcoreapp2.1/Roosevelt.Api.pdb
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.csprojAssemblyReference.cache
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.csproj.CoreCompileInputs.cache
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.RazorAssemblyInfo.cache
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.RazorAssemblyInfo.cs
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.AssemblyInfoInputs.cache
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.AssemblyInfo.cs
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.RazorTargetAssemblyInfo.cache
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.dll
+/home/jamison/Roosevelt/Roosevelt.Api/obj/Debug/netcoreapp2.1/Roosevelt.Api.pdb
