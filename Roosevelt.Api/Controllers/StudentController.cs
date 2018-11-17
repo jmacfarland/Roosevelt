@@ -17,8 +17,7 @@ namespace Roosevelt.Api.Controllers
 
             if (_context.Students.Count() == 0)
             {
-                // Create a new Student if collection is empty,
-                // which means you can't delete all Student.
+                // Populate database
                 _context.Students.Add(new Student { first_name = "John" });
                 _context.SaveChanges();
             }
