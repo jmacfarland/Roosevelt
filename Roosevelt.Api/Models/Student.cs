@@ -17,6 +17,5 @@ namespace Roosevelt.Api.Models
         public string phone { get; set; }
         public int attendance { get; set; }
         public int days_membership { get; set; }
-        public int absent_streak { get; set; }
     }
 }
