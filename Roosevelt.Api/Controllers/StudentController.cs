@@ -36,8 +36,12 @@ namespace Roosevelt.Api.Controllers
                             attendance=csv[7],
                             days_membership=csv[8],
                             teacher_name=csv[9],
-                            t_school=csv[10],
-                            t_grade=csv[11]
+                            school=csv[10],
+                            grade_year=csv[11],
+                            y_summer_read=csv[12],
+                            y_star_grade_equivalent=csv[13],
+                            y_star_percentile=csv[14],
+                            y_star_irl=csv[15]
                         });
                     }
                 }

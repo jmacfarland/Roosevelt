@@ -18,7 +18,11 @@ namespace Roosevelt.Api.Models
         public string attendance { get; set; }
         public string days_membership { get; set; }
         public string teacher_name { get; set; }
-        public string t_school { get; set; }
-        public string t_grade { get; set; }
+        public string school { get; set; }
+        public string grade_year { get; set; }
+        public string y_summer_read { get; set; }
+        public string y_star_grade_equivalent { get; set; }
+        public string y_star_percentile { get; set; }
+        public string y_star_irl { get; set; }
     }
 }
