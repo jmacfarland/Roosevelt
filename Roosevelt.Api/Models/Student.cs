@@ -17,5 +17,8 @@ namespace Roosevelt.Api.Models
         public string phone { get; set; }
         public string attendance { get; set; }
         public string days_membership { get; set; }
+        public string teacher_name { get; set; }
+        public string t_school { get; set; }
+        public string t_grade { get; set; }
     }
 }

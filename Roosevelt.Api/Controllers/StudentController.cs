@@ -21,7 +21,7 @@ namespace Roosevelt.Api.Controllers
             if (_context.Students.Count() == 0)
             {
                 Console.WriteLine("Starting import CSV!");
-                using (CsvReader csv = new CsvReader(new StreamReader("student_data.csv"), true))
+                using (CsvReader csv = new CsvReader(new StreamReader("with_teacher.csv"), true))
                 {
                     while(csv.ReadNextRecord())
                     {
@@ -34,7 +34,10 @@ namespace Roosevelt.Api.Controllers
                             parent_2=csv[5],
                             phone=csv[6],
                             attendance=csv[7],
-                            days_membership=csv[8]
+                            days_membership=csv[8],
+                            teacher_name=csv[9],
+                            t_school=csv[10],
+                            t_grade=csv[11]
                         });
                     }
                 }
