@@ -62,5 +62,17 @@ namespace Roosevelt.Api.Controllers
             }
             return student;
         }
+
+        [Route("Teacher")]
+        [HttpGet("{t_name}", Name = "GetByTeacher")]
+        public ActionResult<List<Student>> GetbyTeacher(string t_name)
+        {
+            List<Student> ret = new List<Student>();
+            foreach(Student s in _context.Students.ToList())
+            {
+
+            }
+
+        }
     }
 }
